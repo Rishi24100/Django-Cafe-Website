@@ -1,22 +1,12 @@
 {% extends 'base.html' %}
 {% load static %}
-
 {% block content %}
-<section>
-    <article id="hero">
-      <h1 class="heading_shadow">SPECIAL OFFER</h1>
-      <p>
-        30% Off This Weekend 
-      </p>
-      <a href="#" class="cta"> Book now </a>
-    </article>
-  </section>
   <section>
     <article>
       <h2>Our New Menu</h2>
       <img src="{% static 'img/grill.jpg' %}">
       <p>
-        Our menu consists of 12-15 seasonal items based on Italian, Greek, and Turkish culture.
+        Our menu consists of 12-15 seasonal items based on Indian with the touch of modern.
       </p>
       <p>
         <a href="{% url 'menu' %}">See our new menu</a>
@@ -24,9 +14,9 @@
     </article>
     <article>
       <h2>Book a table</h2>
-      <img src="{% static 'img/salad.jpg' %}">
+      <img src="{% static 'img/blur.jpg' %}">
       <p>
-        Reserve your table for an Italian, Greek, and Turkish dining experience.
+        Reserve your table with modern dining experience.
       </p>
       <p>
         <a href="{% url 'book' %}">Book your table now</a>
@@ -36,12 +26,12 @@
       <h2>Opening Hours</h2>
       <img src="{% static 'img/head_chef.jpg' %}">
       <p>
-        The Little Lemon Restaurant is open 7 days a week, except for public holidays. 
+        The Hot N' fast Restaurant is open 7 days a week, except for public holidays. 
       </p>
       <ul>
-        <li>Mon - Fri: 2pm - 10pm</li>
-        <li>Sat: 2pm - 11pm</li>
-        <li>Sun: 2pm - 9pm</li>
+        <li>Mon - Fri: 11Am - 9pm</li>
+        <li>Sat: 10Am - 11pm</li>
+        <li>Sun: 11Am - 1Am</li>
       </ul>
     </article>
   </section>
